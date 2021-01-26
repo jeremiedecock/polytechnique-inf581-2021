@@ -8,7 +8,20 @@
 
 ### Welcome to INF581!
 
-Machine learning is an increasingly important area, and it has provided many of the recent advances behind applications of artificial intelligence. It is relevant to a plethora of application domains in science and industry - including in finance, health, transport, linguistics, media, and biology. Lectures will cover the many of the main concepts and algorithms. We will cover in some degree all the main paradigms of machine learning: supervised learning (regression, classification), unsupervised learning, and reinforcement learning. Among many learning algorithms we will look at: least squares, logistic regression, k-nearest neighbors, neural networks and deep learning, decision tree inducers, kernel methods, PCA, k-means clustering, and Q-learning. In the labs, we will implement many of these, and investigate their use in different applications. Programming will be done in Python with scientific libraries such as numpy and scikit-learn. The main grading component is a team project, as well as several in-class tests.
+Driven by recent breakthroughs, rapidly growing collections of data, and a plethora of exciting applications, artificial intelligence is experiencing massive interest and investment from both the academic and industrial scene.
+
+This course selects a number of advanced topics to explore in machine learning and autonomous agents, in particular:
+
+- Probabilistic graphical models (Bayesian networks, ...)
+- Multi-output and structured-output prediction problems
+- Deep-learning architectures
+- Methods of search and optimization (Beam search, epsilon-approximate search, stochastic optimization, Monte Carlo methods, ...)
+- Sequential prediction and decision making (HMMs, Sequential Monte Carlo, Bayesian Filtering, MDPs, ...)
+- Reinforcement learning (Q-Learning, Deep Q-Learning, ...)
+
+Although these topics are diverse and extensive, this course is developed around a common thread connecting them all, such that each topic builds off the others.
+
+Lectures will cover the relevant theory, and labs will familiarize the students with these topics from a practical point of view. Several of the lab assignments will be graded, and a team project on reinforcement learning will form a major component of the grade - where the goal is to developing and deploy an agent in an environment and write a report analyzing the results.
 
 **Course Outline**: A working outline can be found as topics below. This is subject to minor changes as the course progresses. 
 
