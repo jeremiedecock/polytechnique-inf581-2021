@@ -5,8 +5,11 @@ Polytechnique INF581
 Copyright (c) 2019-2021 Jérémie Decock
 
 .. image:: logo.jpg
-    :width: 400
+    :width: 100
     :alt: Alternative text
+
+
+Github repository: https://github.com/jeremiedecock/polytechnique-inf581-2021
 
 
 Moodle
@@ -93,22 +96,52 @@ Solution:
 - Open in NbViewer: https://nbviewer.jupyter.org/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab4_rl1_dynamic_programming_answers.ipynb
 - Download the notebook file: https://github.com/jeremiedecock/polytechnique-inf581-2021/raw/master/lab4_rl1_dynamic_programming_answers.ipynb
 
-Lab session 5
--------------
-
-TODO
 
 Lab session 6
 -------------
 
-TODO
+Subject:
+
+- Open in Google Colab: https://colab.research.google.com/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab6_rl2_tdlearning_qlearning_sarsa.ipynb
+- Open in NbViewer: 
+- Download the notebook file: https://raw.githubusercontent.com/jeremiedecock/polytechnique-inf581-2021/master/lab6_rl2_tdlearning_qlearning_sarsa.ipynb
+
+Solution:
+
+- Open in Google Colab: 
+- Open in NbViewer: https://nbviewer.jupyter.org/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab6_rl2_tdlearning_qlearning_sarsa_answers.ipynb
+- Download the notebook file: 
 
 Lab session 7
 -------------
 
-TODO
+Subject:
+
+- Open in Google Colab: https://colab.research.google.com/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab7_rl3_reinforce.ipynb
+- Open in NbViewer: 
+- Download the notebook file: https://github.com/jeremiedecock/polytechnique-inf581-2021/raw/master/lab7_rl3_reinforce.ipynb
+
+Solution:
+
+- Open in Google Colab: https://colab.research.google.com/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab7_rl3_reinforce_answers.ipynb
+- Open in NbViewer: 
+- Download the notebook file: https://github.com/jeremiedecock/polytechnique-inf581-2021/raw/master/lab7_rl3_reinforce_answers.ipynb
+
+Bonus:
+
+- Download the notebook file: https://raw.githubusercontent.com/jeremiedecock/polytechnique-inf581-2021/master/lab7_rl3_reinforce_baselines.ipynb
 
 Lab session 8
 -------------
 
-TODO
+Subject:
+
+- Open in Google Colab: 
+- Open in NbViewer: 
+- Download the notebook file: 
+
+Solution:
+
+- Open in Google Colab: 
+- Open in NbViewer: 
+- Download the notebook file: 
