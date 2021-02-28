@@ -142,6 +142,6 @@ Subject:
 
 Solution:
 
-- Open in Google Colab: 
-- Open in NbViewer: 
-- Download the notebook file: 
+- Open in Google Colab: https://colab.research.google.com/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab8_optim_cem_answers.ipynb
+- Open in NbViewer: https://nbviewer.jupyter.org/github/jeremiedecock/polytechnique-inf581-2021/blob/master/lab8_optim_cem_answers.ipynb
+- Download the notebook file: https://github.com/jeremiedecock/polytechnique-inf581-2021/raw/master/lab8_optim_cem_answers.ipynb
