@@ -16,7 +16,7 @@
 #
 # Dev branch marker is: 'X.Y.dev' or 'X.Y.devN' where N is an integer.
 # 'X.Y.dev0' is the canonical version of 'X.Y.dev'
-__version__ = '1.0.0dev0'
+__version__ = '1.0.0dev1'
 
 def get_version():
     """Returns the version ID of the library."""
@@ -28,19 +28,24 @@ import sys, subprocess
 def is_colab():
     return "google.colab" in sys.modules
 
-colab_requirements = [
-    "gym",
-    "numpy",
-    "pandas",
-    "seaborn",
-    "pyvirtualdisplay",
-    "imageio",
-    "nnfigs"
+# C.f. https://github.com/openai/gym#installing-everything
+
+# apt install xvfb x11-utils swig
+debian_requirements = [
+    "xvfb",
+    "x11-utils",
+    "swig"               # Required for Box2D
 ]
 
-debian_packages = [
-    "xvfb",
-    "x11-utils"
+# pip install gym[box2d] numpy pandas seaborn pyvirtualdisplay imageio nnfigs
+pip_requirements = [
+    "gym[box2d]",
+    #"numpy",            # Already installed on Google Colab
+    #"pandas",           # Already installed on Google Colab
+    #"seaborn",          # Already installed on Google Colab
+    "pyvirtualdisplay",
+    #"imageio",          # Already installed on Google Colab
+    "nnfigs"
 ]
 
 if is_colab():
@@ -52,10 +57,10 @@ if is_colab():
         for line in process.stdout:
             print(line.decode().strip())
 
-    for i in colab_requirements:
+    for i in pip_requirements:
         run_subprocess_command("pip install " + i)
 
-    for i in debian_packages:
+    for i in debian_requirements:
         run_subprocess_command("apt install " + i)
 
 
