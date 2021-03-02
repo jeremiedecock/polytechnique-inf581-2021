@@ -44,6 +44,7 @@ pip_requirements = [
     #"pandas",           # Already installed on Google Colab
     #"seaborn",          # Already installed on Google Colab
     "pyvirtualdisplay",
+    "cma",
     #"imageio",          # Already installed on Google Colab
     "nnfigs"
 ]
